@@ -8,7 +8,6 @@ JSON documents are stored in Workers KV under a key, and every request is protec
 ```sh
 npm install
 npx wrangler login
-npx wrangler kv namespace create STORE   # paste the printed id into wrangler.toml
 npx wrangler secret put API_TOKEN        # pick a long random string, e.g. `openssl rand -hex 32`
 npm run deploy
 ```

@@ -2,8 +2,7 @@ name = "task-store"
 main = "src/index.js"
 compatibility_date = "2026-09-01"
 
-# Create the namespace with:  npx wrangler kv namespace create STORE
-# then paste the printed id below.
+# KV namespace "task-store-STORE"
 [[kv_namespaces]]
 binding = "STORE"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "309310883f5540f7820722a157bdc0eb"
